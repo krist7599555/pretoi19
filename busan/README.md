@@ -2,6 +2,8 @@
 
 [🎉 solution.cpp](./busan.cpp)
 
+<img width="519" alt="image" src="https://github.com/krist7599555/pretoi19/assets/19445033/37b4cc4f-c20b-48e3-8340-b9663859b097">
+
 วิเคราะเคสแบบละตำแหน่งมีอยู่ 4 รูปแบบ
 |left|right|action|
 |-|-|-|
