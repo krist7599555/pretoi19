@@ -1,4 +1,4 @@
-# Busan
+# Busan รถไฟไปปูซาน
 
 [🎉 solution.cpp](./busan.cpp)
 
