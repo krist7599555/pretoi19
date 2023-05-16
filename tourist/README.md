@@ -1,5 +1,7 @@
 # Tourist นักท่องเที่ยว
 
+<img width="500" alt="image" src="https://github.com/krist7599555/pretoi19/assets/19445033/e69a1365-1ab6-40da-9cad-01d075adbb66">
+
 ## Oveserve 1 - กลุ่มทั้งหมดมีไม่เกิน 224 กลุ่ม
 
 ข้อนี้ถ้าต้องทำตรงๆทั้งหมดเลยจะดูยากมาก แต่เราเริ่มจาก input ว่าเข้าให้ `group_ids <= 100,000`. แต่ถ้าเรามาคิดดูว่ามันสามารถมีหลาย group ที่มีจำนวนคนเท่ากันได้ ถ้าจำนวนคนเท่ากัน ยังไงผลลัพท์ของคำถามก็จะเหมือนกัน เราไม่จำเป็นต้องคำนวนซ้ำ
@@ -39,6 +41,8 @@
 ## Observe 3 - รวมของด้วย DSU (Disjoint Set Union)
 
 > [Disjoint Set Unions - Union Find Algorith Tutorial](https://cp-algorithms.com/data_structures/disjoint_set_union.html)
+
+<img width="500" alt="image" src="https://github.com/krist7599555/pretoi19/assets/19445033/99c0703b-4fcf-4db2-a286-a305d5137de5">
 
 1. ให้เราเริ่มต้นกราฟด้วย `dsu` ที่ไม่มี node ไหนเชื่อมหากันเลย
 1. ต่อเส้นเชื่อม ที่**ไม่มี**การแก้ไข policy `L[i], R[i]` ลงใน `dsu`
