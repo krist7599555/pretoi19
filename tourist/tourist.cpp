@@ -68,15 +68,15 @@ std::vector<int> tourist(std::istream& in) {
   // std::cerr << "-------------\n";
   int n_node, n_edge, n_tourist, n_question;
   in >> n_node >> n_edge >> n_tourist >> n_question;
-  Vec tourist_group(MAX_GROUP_NUMBER, 0);
+  Vec group_ids(MAX_GROUP_NUMBER, 0);
   int max_group_sz = 0;
   for_(_, 0, n_tourist) {
     int group; in >> group;
-    tourist_group[group] += 1;
-    max_group_sz = std::max(max_group_sz, tourist_group[group]);
+    group_ids[group] += 1;
+    max_group_sz = std::max(max_group_sz, group_ids[group]);
   }
   Vec group_count(max_group_sz + 1); // [group_size] = number of group
-  for (int cnt : tourist_group) {
+  for (int cnt : group_ids) {
     if (cnt > 0) {
       group_count[cnt] += 1;
     }
