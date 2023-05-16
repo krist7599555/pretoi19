@@ -1,5 +1,7 @@
 # Tourist นักท่องเที่ยว
 
+[🎉 solution.cpp](./tourist.cpp)
+
 <img width="500" alt="image" src="https://github.com/krist7599555/pretoi19/assets/19445033/e69a1365-1ab6-40da-9cad-01d075adbb66">
 
 ## Oveserve 1 - กลุ่มทั้งหมดมีไม่เกิน 224 กลุ่ม
