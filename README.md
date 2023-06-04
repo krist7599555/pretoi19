@@ -1,6 +1,6 @@
-# Pre TOI 19 unofficial solution
+# [Pre TOI 19](https://github.com/crackncode-th/pretoi19-tasks) unofficial solution
 
-เฉลยโจทย์ [pretoi19 by crackncode](https://pretoi19.crackncode.org)
+เฉลยโจทย์ [pretoi19 by crackncode](https://pretoi19.crackncode.org), [official solution](https://github.com/crackncode-th/pretoi19-tasks)
 
 ใครทำข้อไหนได้ช่วยกันหน่อย เปิด pull request มาก็ได้ 🥳
 
